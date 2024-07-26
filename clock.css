@@ -1,0 +1,86 @@
+*{
+    background-color: white;
+}
+/* ============================================================== */
+#clockcontainer{
+    background-color: blue;
+    height: 40vw;
+    width: 40vw;
+    /* border-radius: 900px; */
+    /* box-shadow: 0px 1px 2px 0px rgba(9, 9, 11, 0.7),
+            1px 2px 4px 0px rgba(9, 9, 11, 0.7),
+            2px 4px 8px 0px rgba(9, 9, 11, 0.7),
+            2px 4px 16px 0px rgba(29, 45, 220, 0.7); */
+    background: url(img3here.png) no-repeat;
+    background-size:100%;
+    border: 0.1px solid white;
+    background-position: center;
+    margin: auto;   
+}
+#hour , #minute, #second{
+position: absolute;
+border-radius: 10px;
+}
+
+#hour{
+    width: 0.89vw;
+    height: 8.6vw;
+    margin-left: 18.7vw;
+    margin-top:11vw;
+    opacity: 0.8;
+    transform-origin: bottom;
+    background-color: rgb(18, 17, 17);
+
+    /* display: none; */
+}
+#minute{
+    width: 0.7vw;
+    height: 11vw;
+    margin-left: 18.7vw;
+    margin-top:9vw;
+    transform-origin: bottom;
+    /* display: none; */
+    background-color: black;
+
+}
+#second{
+    width: 0.6vw;
+    height: 12.7vw;
+    margin-left: 19vw;
+    margin-top:7vw;
+    opacity: 0.8;
+    transform-origin: bottom;
+    background-color: red;
+    opacity: 0.8;
+
+
+    /* display: none; */
+}
+#circle{
+    border-radius: 55px;
+    height:2.3vw;
+    width:2.3vw;
+    background-color: black;
+    margin-top:18.8vw ;
+    margin-left:18.1vw
+}
+
+/* ============================================================== */
+/* .image{
+    height: 500px;
+   
+} */
+/* #circle{
+    background:white;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    border:5px solid rgba(14, 31, 220, 0.353);
+   
+    box-shadow: 0px 1px 2px 0px rgba(9, 9, 11, 0.7),
+            1px 2px 4px 0px rgba(9, 9, 11, 0.7),
+            2px 4px 8px 0px rgba(9, 9, 11, 0.7),
+            2px 4px 16px 0px rgba(29, 45, 220, 0.7);
+    margin: auto;
+    margin-top: 85px;        
+} */
